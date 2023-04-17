@@ -1,0 +1,98 @@
+/* html,
+body {
+	margin: 0;
+	padding: 0;
+}
+.background {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+} */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #2b2d42;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1rem 2.5rem;
+}
+
+header h1,
+.links {
+	display: flex;
+	flex-direction: row;
+}
+
+header h1 {
+	align-self: flex-start;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+header a {
+	color: #edf2f4;
+	text-decoration: none;
+}
+
+.links {
+	justify-content: space-between;
+	margin: 1rem 0;
+}
+
+.links a {
+	color: #8d99ae;
+	padding-left: 0.9rem;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: #edf2f4;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+}
+
+.subheader {
+	text-align: left;
+	align-self: center;
+}
+
+.subheader h2 {
+	font-size: 4rem;
+	margin: 0;
+	color: #edf2f4;
+}
+
+.words {
+	font-style: italic;
+	margin: 1rem 0;
+	color: #8d99ae;
+	font-weight: 300;
+	/* font-size: 1rem; */
+}
+
+.bio {
+	align-self: center;
+	justify-content: flex-start;
+}
+
+.bio img {
+	width: 200px;
+	border-radius: 2px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* .about p {
+	font-weight: 300;
+} */
