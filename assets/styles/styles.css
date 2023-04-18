@@ -5,11 +5,21 @@ body {
 	padding: 0;
 }
 
+hr {
+	margin: 0;
+	background-color: #8d99ae;
+	border: none;
+	height: 1px;
+}
+
 header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 1rem 2.5rem;
+	margin-top: 1rem;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	padding-bottom: 0.25rem;
 }
 
 header h1,
@@ -43,9 +53,12 @@ header a {
 
 .links a:hover {
 	color: #edf2f4;
+	transition: 350ms;
 }
 
 .about {
+	position: relative;
+	top: 7rem;
 	width: 75%;
 	margin: 2rem auto 0 auto;
 }
@@ -72,12 +85,22 @@ header a {
 	display: flex;
 }
 
+.text h3 {
+	margin-top: 0;
+}
+
 .text {
+	margin-top: none;
 	padding-left: 1.2rem;
 	color: #edf2f4;
 }
-/* TODO: fix aspect ratio bug */
+/* TODO: Fix movement along y-axis when resized */
 .bio img {
-	width: 200px;
+	object-fit: scale-down;
+	max-width: 200px;
 	border-radius: 5px;
+}
+
+h3 {
+	color: #ef233c;
 }
