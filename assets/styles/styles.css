@@ -1,7 +1,7 @@
 /* Global styles */
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: #2b2d42;
 	margin: 0;
 	padding: 0;
@@ -32,6 +32,7 @@ header h1,
 }
 
 header h1 {
+	font-family: 'Raleway', sans-serif;
 	align-self: flex-start;
 	margin: 0;
 	padding: 0;
@@ -86,8 +87,8 @@ header a {
 	font-style: italic;
 	margin-top: 0.2rem;
 	margin-bottom: 1.2rem;
-	color: #8d99ae;
-	font-weight: 300;
+	color: #ef233c;
+	font-weight: 500;
 }
 
 .bio {
@@ -97,6 +98,12 @@ header a {
 
 .text h3 {
 	margin-top: 0;
+	margin-bottom: 0.3em;
+}
+.text p {
+	margin-top: 0;
+	color: #bdc6d1;
+	font-weight: 300;
 }
 
 .text {
@@ -112,12 +119,9 @@ header a {
 	border-radius: 5px;
 }
 
-h3 {
-	color: #ef233c;
-}
-
 .errorcode h2 {
 	font-size: 10rem;
+	margin-bottom: 0.2rem;
 	color: #edf2f4;
 }
 
@@ -129,6 +133,12 @@ h3 {
 .errorcode a {
 	color: #ef233c;
 	text-decoration: none;
+}
+
+.errorcode h3 {
+	color: #edf2f4;
+	margin-bottom: 2rem;
+	font-size: 3rem;
 }
 
 .notfound {
