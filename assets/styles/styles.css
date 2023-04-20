@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: #2b2d42;
@@ -13,12 +15,13 @@ hr {
 }
 
 header {
+	background-color: #2b2d42;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 1rem;
-	margin-left: 2.5rem;
-	margin-right: 2.5rem;
+	padding-top: 1rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
 	padding-bottom: 0.25rem;
 }
 
@@ -38,6 +41,10 @@ header h1 {
 header a {
 	color: #edf2f4;
 	text-decoration: none;
+}
+#title:hover {
+	transition: 350ms;
+	text-shadow: #edf2f4 0px 0px 1px;
 }
 
 .links {
@@ -65,6 +72,8 @@ header a {
 
 .subheader {
 	text-align: left;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .subheader h2 {
@@ -83,6 +92,7 @@ header a {
 
 .bio {
 	display: flex;
+	align-items: flex-start;
 }
 
 .text h3 {
@@ -94,8 +104,9 @@ header a {
 	padding-left: 1.2rem;
 	color: #edf2f4;
 }
-/* TODO: Fix movement along y-axis when resized */
+
 .bio img {
+	padding-top: 0.2rem;
 	object-fit: scale-down;
 	max-width: 200px;
 	border-radius: 5px;
@@ -103,4 +114,24 @@ header a {
 
 h3 {
 	color: #ef233c;
+}
+
+.errorcode h2 {
+	font-size: 10rem;
+	color: #edf2f4;
+}
+
+.errorcode p {
+	font-style: italic;
+	color: #bdc6d1;
+	font-weight: 300;
+}
+.errorcode a {
+	color: #ef233c;
+	text-decoration: none;
+}
+
+.notfound {
+	text-align: center;
+	margin: auto;
 }
