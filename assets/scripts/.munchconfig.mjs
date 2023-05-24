@@ -1,0 +1,23 @@
+export default {
+  inputFiles: ["./particles.js", "./app.particles.js"],
+  reservedNames: ["window", "document", "navigator", "console", "alert"],
+  target: "browser",
+  output: "./dist/munched.bundle.js",
+  debugProtection: true,
+  deadCodeInjection: true,
+  deadCodeInjectionThreshold: 0.8,
+  controlFlowFlattening: true,
+  controlFlowFlatteningThreshold: 0.8,
+  renameProperties: false,
+  domainLock: [],
+  selfDefending: true,
+  encryptStrings: true,
+  stringEncryptionThreshold: 0.5,
+  opaquePredicates: true,
+  disableConsole: false,
+  opaquePredicateThreshold: 0.8,
+  pathExplosion: true,
+  renameGlobals: false,
+  inlineFunctionThreshold: 0.5,
+  useBetaFeatures: false
+};

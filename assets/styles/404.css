@@ -1,0 +1,49 @@
+/* Global styles */
+:root {
+    --smoky-black: hsl(0, 0%, 7%);
+    --ff-poppins: 'Poppins', sans-serif;
+    --orange-yellow-crayola: hsl(45, 100%, 72%);
+
+}
+
+#particles-js {
+    top: 0;
+}
+
+body {
+    font-family: var(--ff-poppins);
+    background-color: var(--smoky-black);
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--orange-yellow-crayola);
+    text-decoration: none;
+}
+
+
+.errorcode h2 {
+    font-size: 10rem;
+    margin-bottom: 0.2rem;
+    color: #edf2f4;
+}
+
+.errorcode p {
+    font-style: italic;
+    color: #bdc6d1;
+    font-weight: 300;
+}
+
+.errorcode h3 {
+    color: #edf2f4;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.notfound {
+    text-align: center;
+    margin: auto;
+}
