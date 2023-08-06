@@ -2019,18 +2019,16 @@ textarea.form-input::-webkit-resizer {
     .social-list {
         justify-content: center;
     }
+}
 
+/**
+    * RESUME
+    */
+.timeline-text {
+    max-width: 700px;
+}
 
-    /**
-       * RESUME
-       */
-    .timeline-text {
-        max-width: 700px;
-    }
-
-    .timeline-text a {
-        color: var(--orange-yellow-crayola);
-        display: contents;
-    }
-
+.timeline-text a {
+    color: var(--orange-yellow-crayola);
+    display: contents;
 }
